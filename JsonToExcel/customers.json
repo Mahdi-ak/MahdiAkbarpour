@@ -1,0 +1,14 @@
+[
+    {
+        "customer_id": "1",
+        "name": "Mahdi",
+        "email": "Mahdi@example.com",
+        "phone": "09149999999"
+    },
+    {
+        "customer_id": "2",
+        "name": "Mahdi2 ",
+        "email": "Mahdi2@example.com",
+        "phone": "09141111111"
+    }
+]
