@@ -28,11 +28,8 @@ def save_to_excel(customer_phones, output_file):
 
 customers = load_customer_data('customers.json')
 
-
 customer_phones = extract_customer_phones(customers)
 
-
-output_file = 'customer_phones.xlsx'
-save_to_excel(customer_phones, output_file)
+save_to_excel(customer_phones, 'customer_phones.xlsx')
 
 print(f"Customer phone numbers have been saved to {output_file}")
